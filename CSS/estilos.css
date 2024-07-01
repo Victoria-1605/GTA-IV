@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Redes";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Grunge";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 0;
+}
+
+#inicio {
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+
+#titulos {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#titulos {
+    background: url(../image/Imagen1.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+}
+
+h1 {
+    font-family: 'Zen Loop', cursive;
+    font-size: 8.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: rgb(74, 18, 85);
+    border: 2px solid #000;
+}
+
+#tendencia {
+    font-family: Chilanka, cursive;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+    color: rgb(229, 255, 0);
+}
+
+h2 {
+    font-family: Bubbler, cursive;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+#principal {
+    height: 100vh;   
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #fff; 
+}
+
+a {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(217, 255, 0);
+    font-weight: bolder;
+}
+
+#tendencias {
+    background-color: #2d2963;
+}
+
+.titulo {
+    font-family: Chilanka, cursive;
+    text-align: center;
+    color: rgba(255, 251, 5, 0.907);
+    text-shadow: 2px 2px 5px rgb(211, 116, 235);
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 100px;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+#tendencias {
+    background-color: #000;
+}
+
+#historia {
+    display: none;
+    height: 400px;
+}
+
+section #historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px; 
+    padding-bottom: 100px; 
+    margin: 0;
+    background-color: #000000;
+    
+}
+
+#historia {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#img_gta {
+    height: 1000%;
+    width: 100px;
+    width: 100%;
+    margin: 250px;
+    margin-right: 150px;
+    float: right;
+}
+
+fieldset {
+    width: 90%;
+    background-color: #696961;
+    font-size: 1rem;
+    color: #000000;
+    font-family: 'Permanent Marker', cursive;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: 2.5rem;
+    float: left;
+    margin-right: 5px;
+    margin-top: -15px;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 70px;
+}
+
+
+#personajes{
+    background-color: #000000;
+    height: 300px;
+}
+
+
+.icon-texto {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.icon-texto .material-symbols-outlined {
+    font-size: 8rem;
+    color: rgb(251, 255, 6);
+}
+
+.icon-texto p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+    width: 100%; 
+    text-align: center;
+    
+}
+
+
+.icon-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-texto .material-symbols-outlined {
+    font-size: 3rem;
+    margin: 0 10px;
+}
+
+
+.icon-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.icono-texto .material-symbols-outlined {
+    font-size: 3rem;
+}
+
+.icono-texto p {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+}
+
+#mapa {
+    background-image: url("../image/XVYPRPWUIBEB3PLC5AQKBLQW4M.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: white; 
+    padding: 800px; 
+}
+h2{
+    font-family: 'Zen Loop', cursive;
+    font-size: 2.5rem;
+    color: #00ff2a;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    
+}
+
+#fotos{
+    text-align: center;
+    margin-bottom: 40px 0px;
+     background-color: #000;
+}
+#fotos h3 {
+    font-family: Bubbler, cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+#fotos p{
+    font-family: Chilanka, cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: block;
+}
+
+#fotos img {
+    width: 30%; 
+    height: 300px; 
+    margin: 1.5%;
+ 
+}
+
+
+
+
+
+#mapas2{
+    background-color: #000;
+        width: 100%;
+        height: 400px; /* Ajusta la altura según tus necesidades */
+    }
+    
+   
+
+
+footer {
+    background: #000000; /* Ajusta según tu diseño */
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Asegura que todos los elementos estén alineados en la parte superior */
+    flex-wrap: nowrap; /* Evita que los elementos se muevan a la siguiente línea */
+    width: 100%;
+}
+
+#rs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+#rs .icono {
+    font-family: Grunge, cursive;
+    font-size: 32px;
+    color: #FFF;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start; /* Asegura que el menú esté alineado en la parte superior */
+    flex: 1;
+    margin-right: 25%;
+}
+
+#menu div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#branding {
+    font-family: 'Grand Theft Auto', sans-serif;
+    font-size: 36px;
+    color: #FFF;
+    margin-right: 5%;
+    align-self: flex-start; /* Asegura que el texto "GTA IV" esté alineado en la parte superior */
+}
+
+#derechos {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    font-size: 12px;
+    margin-right: 80px;
+}
+
